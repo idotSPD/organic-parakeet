@@ -94,7 +94,7 @@ class Disaster(models.Model):
     comments = models.TextField()
 
     province = models.ForeignKey(Province, on_delete=models.CASCADE)
-    region = models.ForeignKey(Region, on_delete=models.CASCADE)
+    # region = models.ForeignKey(Region, on_delete=models.CASCADE)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
 
 
